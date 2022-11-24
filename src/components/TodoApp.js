@@ -37,7 +37,7 @@ function TodoApp() {
   useEffect(() => {
     const config = {
       params: {
-        _limit: 5,
+        _limit: 10,
       },
     };
     axios
